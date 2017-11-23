@@ -1,0 +1,25 @@
+Author: Ratnesh Sharma
+Date: 23-Nov-2017
+
+Artefact Details
+File: weather_history_training_dataset.csv
+Description : This file contains the main traiing set on the basis of which weather prediction is done. This data is used as reference.
+	
+File: generate_test_data.py
+Description : This file need to be executed to generate future test dataset which is just a combination of places and time against which we want to generate weather TEMPERATURE prediction.
+	
+File: weather_prediction.py
+Description : This file utilizes the training dataset contained in "weather_history_training_dataset.csv" and trains the machine and after that it takes "sample_data_file.csv" as input and generate weather/temperature predictions for places and time and create two separate files with predicted temparatures and weather conditions using linear regression and Random forest regression methods respectively named as "predicted_data_file_linear_regression_method.csv" and "predicted_data_file_random_forest_method.csv".
+
+Output files
+sample_data_file.csv
+predicted_data_file_linear_regression_method.csv
+predicted_data_file_random_forest_method.csv
+
+
+Deployment/Execution Instructions
+1) Copy the folder "Weather_Prediction" into "C:" drive.
+2) Open python tool like Spyder etc. This coding is done using Spyder.
+3) Open the file "generate_test_data.py" and execute. This will generate a file named "sample_data_file.csv" in the same folder.
+4) Open the file "weather_prediction.py" and execute. This will generate two files named "predicted_data_file_linear_regression_method.csv" and "predicted_data_file_random_forest_method.csv" containing predicted temperature and weather conditions.
+5) Contact sharma.ratnesh@gmail.com for any queries or support requirements.
